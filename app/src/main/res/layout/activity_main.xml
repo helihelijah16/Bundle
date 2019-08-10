@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ccc"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="DATA DIRI"
+       android:textSize="15pt"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Nama"
+       android:textSize="12pt"
+       android:id="@+id/edt_nama"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Alamat"
+       android:textSize="12pt"
+       android:id="@+id/edt_alamat"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="NoHp"
+       android:textSize="12pt"
+       android:id="@+id/edt_noHp"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Pekerjan"
+       android:textSize="12pt"
+       android:id="@+id/edt_pekerjaan"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Lama Kerja"
+       android:textSize="12pt"
+       android:id="@+id/edt_lamaKerja"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Asal Sekolah"
+       android:textSize="12pt"
+       android:id="@+id/edt_asalSekolah"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Keahlian"
+       android:textSize="12pt"
+       android:id="@+id/edt_keahlian"/>
+
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+       android:id="@+id/btn_input"
+       android:layout_gravity="center"
+       android:text="INPUT"/>
+
+</LinearLayout>
